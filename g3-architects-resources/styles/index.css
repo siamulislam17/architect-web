@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Work Sans", serif;
+}
+body{
+    margin: 0px;
+}
+/*header*/
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    margin: 0px;
+    margin-top: -5vh;
+    width: 100%;
+}
+.first_h1{
+    color: rgb(19, 19, 19);
+    font-size: 44px;
+    font-weight: 700;
+}
+.top-nav{
+    display: flex;
+    margin: 2rem 8rem ;
+    justify-content: space-between;
+    align-items: center;
+}
+ul,a{
+    color: rgb(66, 66, 66);
+    font-size: 1rem;
+    list-style: none;
+    font-weight: 500;
+    display: flex;
+    gap: 2rem ;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.header_elements{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 8rem;
+}
+.header_elements h1{
+    margin: .5rem auto;
+}
+button{
+    background-color: rgb(255, 144, 14);
+    color: white;
+    font-weight: 700;
+    border: none;
+    width: 7rem;
+    height: 2.3rem;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: white;
+    color: rgb(255, 144, 14);
+    border: 1px solid rgb(255, 144, 14);
+}
+.header_elements button{
+    margin: 1rem 45%;
+}
+.header_elements img{
+    padding-bottom: 3rem;
+}
+
+
+/*media*/
+@media screen and (max-width:375px) {
+    
+    .top-nav{
+        gap: 5%;
+        padding-top: 10px ;
+        
+        padding-left: -20px;
+        margin: 0px;
+        margin-left: -20px;
+        
+        width:100% ;
+        margin: 2rem 0rem;
+        flex-direction: column;
+        
+    }
+    ul{
+        margin-left: -50px;
+        margin-top: -10px;
+    }
+    a{
+        font-size: 10px;
+    }
+    .top-nav>h1{
+        font-size: 20px;
+        
+        margin-left: -120px;
+        margin-top: -30p;
+    }
+    .header_elements{
+        padding: 0px 3rem;
+    }
+    .header_elements h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 10px
+    }
+    
+    .header_elements button{
+        margin: 7px auto;
+        width: 4rem;
+        font-size: 12px;
+        font-weight: 600;
+
+
+    }
+    .header_elements img{
+        padding-bottom: 1rem;
+    }
+    
